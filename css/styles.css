@@ -1,0 +1,176 @@
+
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+header{
+    position: absolute;
+    margin: 1em;
+    left: 0;
+    right: 0;
+    
+}
+
+.Name{
+    font-size: 1rem;
+}
+.Name span{
+    font-weight: 300;
+    display: block;
+    color: black;
+}
+
+.button{
+    display: inline-block;
+    font-size: .8rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: whitesmoke;
+    border-width: 1px;
+    border-style: solid;
+    padding: .5rem .5rem;
+
+}
+.button:hover,
+.button:focus {
+    background:lightblue;
+    color: white
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+nav li {
+    display: inline-block;
+    margin: 1em;
+}
+
+nav a {
+    font-weight: 800;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+    background: none;
+    padding: .5rem;
+    color: mediumseagreen;
+}
+
+nav a:hover,
+nav a:focus{
+    color:lightblue;
+}
+
+.container{
+    width: 95%;
+    margin: 0 auto;
+}
+
+.Name{
+    background-image: url(../images/hero-bg.jpg);
+    padding: 10em 0;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.MySpecality-textbox{
+    background-color:#232323;
+    padding: 3em ;
+    width: 100%;
+    
+    position: relative;
+   
+}
+
+
+ul{
+    list-style: none;
+}
+
+.whyAwesome{
+    background-image: url(../images/florian-olivo-4hbJ-eymZ1o-unsplash.jpg);
+    padding: 10em 0;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    color: wheat;
+}
+
+.whyAwesome h1{
+    color:wheat;
+    
+}
+.whatKnown{
+    background-image: url(../images/michael-mroczek-xVKEZ9wVIYM-unsplash.jpg);
+    padding: 5em 0;
+    background-size: cover;
+    background-position: center;
+
+}
+.whatKnown h1{
+    color: rosybrown;
+}
+.whatKnown h2{
+    color: rgba(25, 82, 82, 0.685);
+}
+.whatKnown ul{
+    color: wheat;
+    font-weight: 900;
+}
+.Road{
+    background-color: #232323;
+    padding: 3em;
+}
+.Road h1{
+    color:pink;
+
+}
+
+.Road p{
+    color: pink;
+}
+
+.Contact{
+    background-image: url(../images/marjan-grabowski-HgcdpLIa5jo-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 8em;
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+
+
+}
+.Academics{
+    background-image: url(../images/delfi-de-la-rua-A_InfAQM_lU-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 6em;
+    text-align: initial;
+    font-weight: 700;
+    font-size: 2rem;
+    
+}
+.Academics h1{
+    font-size: 4rem;
+    color: rgb(70, 70, 92);
+    
+    
+}
+
+.projects{
+    background-color:ghostwhite;
+    padding: 8rem;
+}
